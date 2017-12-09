@@ -2,7 +2,7 @@
   "name": "stavmizrahi",
   "version": "0.0.1",
   "scripts": {
-    "start": "coffee app"
+    "start": "coffee server.coffee"
   },
   "dependencies": {
     "coffee": "*",
