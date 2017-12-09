@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name="MobileOptimized", content="320")
+    meta(name="HandheldFriendly", content="true")
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
+    block head
+    link(rel="stylesheet", href="/css/bulma.css")
+    link(rel="stylesheet", href="/css/bulma-carousel.css")
+    link(href="https://fonts.googleapis.com/css?family=Fira+Sans", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Satisfy", rel="stylesheet")
+    link(rel="stylesheet", href="/css/font-awesome/css/font-awesome.min.css")
+    != css('styles')
+    include partials/favicon
+  body
+    include partials/menu
+    block content
+    include partials/footer
+    != js('js')
+    block scripts

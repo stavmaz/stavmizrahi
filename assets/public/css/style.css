@@ -1,0 +1,198 @@
+body{
+  background:#222222;
+  font-family: arial;
+  font-size:15px;
+  color:#fff;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+a{
+  color:#fff;
+}
+a:hover , a:hover .projectName{
+  color:#fff;
+  opacity: 1;
+}
+
+
+.Satisfy{
+	font-family: 'Satisfy', cursive;
+}
+
+.carousel, .item{
+	min-height: 330px;
+}
+
+.carousel-nav-left,.carousel-nav-right{
+	opacity: .1;
+}
+
+.carousel:hover .carousel-nav-left,.carousel:hover .carousel-nav-right{
+	opacity: .7;
+}
+
+.gradient{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a0a0a+0,222222+100 */
+background: rgb(10,10,10); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(10,10,10,1) 0%, rgba(34,34,34,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(10,10,10,1) 0%,rgba(34,34,34,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(10,10,10,1) 0%,rgba(34,34,34,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#222222',GradientType=0 ); /* IE6-9 */
+
+}
+
+.projectName{
+	font-size:13px;
+	margin-bottom: 10px;
+	text-align: left;
+	opacity: .5;
+}
+
+.shadow{
+  -webkit-box-shadow: 11px 15px 75px -10px rgba(0, 0, 0, 0.4);
+-moz-box-shadow:    11px 15px 75px -10px rgba(0, 0, 0, 0.4);
+box-shadow:         11px 15px 75px -10px rgba(0, 0, 0, 0.4);
+}
+
+
+.Red{
+  color:#ef6a6a;
+}
+
+.LightBlue{
+  color:#92adc4;
+}
+.DarkBlue, .DarkBlue a{
+  color:#2d3f54;
+}
+.Green, .Green a{
+  color:#0be8be;
+}
+.Gray, .Gray a{
+  color:#9a9a9a;
+}
+.DarkGray{
+  color:#a4a4a4;
+}
+.White, .White a{
+  color:#ffffff;
+}
+.Black, .Black a{
+  color:#4d4d4d;
+}
+
+
+.Txt9{
+  font-size: 9px;
+}
+
+.Txt10{
+  font-size: 10px;
+}
+
+
+.Txt11{
+  font-size: 11px;
+}
+
+.Txt12{
+  font-size: 12px;
+}
+
+.Txt13{
+  font-size: 13px;
+}
+
+.Txt14{
+  font-size: 14px;
+}
+.Txt15{
+  font-size: 15px;
+}
+.Txt16{
+  font-size: 16px;
+}
+.Txt17{
+  font-size: 17px;
+}
+.Txt18{
+  font-size: 18px;
+}
+.Txt19{
+  font-size: 19px;
+}
+.Txt20{
+  font-size: 20px;
+}
+.Txt21{
+  font-size: 21px;
+}
+.Txt22{
+  font-size: 22px;
+}
+.Txt23{
+  font-size: 23px;
+}
+.Txt25{
+  font-size: 25px;
+}
+.Txt27{
+  font-size: 27px;
+}
+.Txt30{
+  font-size: 30px;
+}
+.Txt33{
+  font-size: 33px;
+}
+.Txt35{
+  font-size: 35px;
+}
+.Txt37{
+  font-size: 37px;
+}
+
+.Txt40{
+  font-size: 40px;
+}
+
+.Txt50{
+  font-size: 50px;
+}
+
+.Italic{
+  font-style: italic;
+}
+
+.Undeline{
+  text-decoration: underline;
+}
+
+.Bold{
+  font-weight: bold;
+}
+.Bold100{
+  font-weight: 100;
+}
+.Bold200{
+  font-weight: 200;
+}
+.Bold300{
+  font-weight: 300;
+}
+.Bold400{
+  font-weight: 400;
+}
+.Bold600{
+  font-weight: 600;
+}
+.Bold800{
+  font-weight: 800;
+}
+.Unbold{
+  font-weight: normal;
+}
+.Underline{
+  text-decoration: underline !important;
+}

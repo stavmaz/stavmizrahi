@@ -1,0 +1,32 @@
+{
+  "name": "stavmizrahi",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "coffee app"
+  },
+  "dependencies": {
+    "coffee": "*",
+    "coffee-script": "~1.8.0",
+    "compression": "~1.5.2",
+    "connect-assets": "~5.0.1",
+    "csurf": "~1.6.0",
+    "errorhandler": "~1.2.0",
+    "express": "~4.8.7",
+    "express-static-cache": "0.0.6",
+    "express-validator": "~2.3.0",
+    "front-matter": "^1.0.0",
+    "http-status": "*",
+    "less": "~1.7.5",
+    "lodash": "^3.5.0",
+    "marked": "^0.3.3",
+    "moment": "*",
+    "pug": "^2.0.0-rc.4",
+    "serve-favicon": "~2.1.1"
+  },
+  "engines": {
+    "node": "6.4.0",
+    "npm": "3.10.3"
+  },
+  "description": "stavmizrahi",
+  "main": "server.coffee"
+}
